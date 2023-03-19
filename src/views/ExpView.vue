@@ -13,7 +13,7 @@ export default {
           employmentStatus: "Internship",
           position: "Software Developer",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas, beatae cupiditate ad unde odio placeat harum, sint cumque quibusdam expedita deserunt amet perspiciatis et veniam. Iusto numquam quae nostrum?",
+            "Help to develop IOA (Indonesia Orthopaedic Association) Landing Page. Using PHP as language, Laravel as framework, and we're using OctoberCMS as CMS",
           icon: "⛴",
         },
         {
@@ -24,7 +24,7 @@ export default {
           employmentStatus: "Part-time",
           position: "Software Developer",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas, beatae cupiditate ad unde odio placeat harum, sint cumque quibusdam expedita deserunt amet perspiciatis et veniam. Iusto numquam quae nostrum?",
+            "Help to maintain and improve existing Biofarma Web Dashboard. Using C# as language, ASP.NET as framework",
           icon: "🚅",
         },
         {
@@ -35,7 +35,7 @@ export default {
           employmentStatus: "Full-time",
           position: "Backend Developer",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas, beatae cupiditate ad unde odio placeat harum, sint cumque quibusdam expedita deserunt amet perspiciatis et veniam. Iusto numquam quae nostrum?",
+            "Assigned on some projetcs, focusing on e-commerce website. Using Go as language, and postgreSQL for the database",
           icon: "🏎",
         },
         {
@@ -46,7 +46,7 @@ export default {
           employmentStatus: "Permanent",
           position: "Associate Software Engineer",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas, beatae cupiditate ad unde odio placeat harum, sint cumque quibusdam expedita deserunt amet perspiciatis et veniam. Iusto numquam quae nostrum?",
+            "Currently assigned on Partnership Lending - Loan Origination squad that responsibilty for pre-loan creation like Loan Origination Workflow Configuration, Employee Loan Origination, etc. Using Go as language, PostgreSQL for the databases, and mainly using Google Cloud Platform as Cloud Infrastructure Providers",
           icon: "🔭",
         },
       ],
@@ -61,7 +61,7 @@ export default {
       <Card
         :icon="e.icon"
         :header="e.position"
-        :sub-header-1="e.company + ' ' + e.employmentStatus"
+        :sub-header-1="e.company + ' | ' + e.employmentStatus"
         :sub-header-2="e.start + ' - ' + e.end"
         :description="e.description"
       />
