@@ -9,8 +9,8 @@ export default {
   <div class="container mx-auto">
     <div class="flex items-center lg:h-[90vh] p-10">
       <div>
-        <h3 class="text-lg mb-2 text-sky-300">Hi, My name is</h3>
-        <h1 class="text-9xl font-bold mb-2">Yafie Setyo</h1>
+        <h3 class="text-md md:text-lg mb-2 text-sky-300">Hi, My name is</h3>
+        <h1 class="text-6xl md:text-9xl font-bold mb-2">Yafie Setyo</h1>
         <h1 class="mt-6 text-3xl font-bold text-sky-500 mb-2">
           An ordinary web builder 😂🤣😂
         </h1>
